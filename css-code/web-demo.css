@@ -25,4 +25,7 @@
   img {
       width: 20px;
   }
+  .span-right {
+      text-align: right;
+  }
 

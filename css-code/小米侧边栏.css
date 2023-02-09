@@ -1,0 +1,22 @@
+.sidebar {
+    background-color: #535758;
+    width: 325px;
+    height: 393px;
+
+}
+
+body {
+    font: 16px/57px "Microsoft YaHei UI"
+}
+
+a:hover {
+    background-color: #ff6f00;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-indent: 2em;
+
+}
