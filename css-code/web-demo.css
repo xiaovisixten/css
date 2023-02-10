@@ -2,30 +2,47 @@
     width: 640px;
     margin: 0 auto;
 }
- body {
-     font: 16px/33px "Microsoft YaHei UI";
- }
-  h2 {
-      font-weight: 400;
-  }
-  .span-fontsize {
-      font-size: 8px;
-      color: #7A7C7A;
-  }
-  a {
-      text-decoration: none;
-      color: #626BAA;
-  }
-  p {
-      text-indent: 2em;
-  }
-  .right {
+
+body {
+    font: 16px/33px "Microsoft YaHei UI";
+}
+
+h2 {
+    font-weight: 400;
+}
+
+.span-fontsize {
+    font-size: 8px;
+    color: #7A7C7A;
+}
+
+a {
+    text-decoration: none;
+    color: #626BAA;
+}
+
+p {
+    text-indent: 2em;
+}
+
+.right {
     text-align: right;
-  }
-  img {
-      width: 20px;
-  }
-  .span-right {
-      text-align: right;
-  }
+}
+
+img {
+    width: 20px;
+}
+
+.span-right {
+    text-align: right;
+}
+
+.icon-left {
+    margin: 0 150px;
+    text-align: right;
+}
+
+.box {
+    display: inline-block;
+}
 
