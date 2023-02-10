@@ -1,0 +1,21 @@
+div {
+    height: 37px;
+    border-bottom: solid 1px #edeef0;
+    border-top: solid 3px #ff8500;
+    color: #4c4c4c;
+    background-color: #fcfcfc;
+    border-collapse: collapse;
+}
+
+.a-1:hover {
+    background-color: #6e6a6a;
+}
+
+.a-1 {
+    text-decoration: none;
+    line-height: 41px;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    color: #4c4c4c;
+}
