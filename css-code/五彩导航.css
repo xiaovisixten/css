@@ -1,0 +1,40 @@
+.box-1 {
+    background-color: #f1f2f3;
+    /* 210*5 98*2*/
+    width: 1150px;
+    margin: 0 auto;
+    height: 756px;
+    text-align: center;
+}
+.a-1:hover{
+    background-color: wheat;
+}
+ .a-1 {
+     display: inline-block;
+     text-decoration: none;
+     width: 210px;
+     height: 80px;
+     text-align: center;
+     font:12px/80px "Microsoft YaHei UI";
+     color: white;
+ }
+
+ .orange{
+     background-color: #ff9400;
+     background-image: url("../img/bg2.png");
+     background-repeat: no-repeat;
+     background-position: center 50px;
+     /*background: rgba(255, 182, 0,.3);*/
+ }
+body {
+    background-color: white;
+}
+.blue {
+    background-color: deepskyblue;
+}
+.zi {
+    background-color: #8150cb;
+}
+.pink {
+    background-color: #b627ba;
+}
