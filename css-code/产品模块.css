@@ -1,0 +1,40 @@
+.box {
+    width: 400px;
+    height: 568px;
+    border: 2px solid #a8a9a7;
+    margin: 0 auto;
+}
+.img-1 {
+    background-image: url("../img/产品.png");
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin: 2px;
+}
+.pingjia {
+    height: 125px;
+    padding: 0 50px;
+    background: white;
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: "Microsoft YaHei UI", serif;
+    color: black;
+    font-weight: 700;
+}
+.id-1 {
+    color: #757272;
+    height: 40px;
+    padding: 0 50px;
+    margin-top: 10px;
+    font-size: 12px;
+
+}
+.price {
+    padding: 0 50px;
+    margin-top: 5px;
+
+}
+.price a{
+    text-decoration: none;
+    color: #d88152;
+}
