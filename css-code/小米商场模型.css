@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+
+.box {
+    width: 815px;
+    height: 636px;
+    background: white;
+    margin: 0 auto;
+    border: 1px dashed #bbbcc4;
+}
+.top {
+    float: left;
+    background-color: #bbbcc4;
+    width: 789px;
+    height: 40px;
+    border: 3px dashed skyblue;
+    margin: 5px 10px;
+}
+.banner {
+    float:  left;
+    width: 578px;
+    height: 109px;
+    background-color: #bbbcc4;
+    border: 3px dashed skyblue;
+    margin: 10px 126px;
+}
+ul li:hover {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+}
+ .ul-1 .li-1 {
+     float: left;
+     border: 3px dashed skyblue;
+     width: 137px;
+     height: 81px;
+     margin-left:  126px;
+     background-color: #bbbcc4;
+ }
+.ul-1 li {
+    float: left;
+    width: 137px;
+    height: 81px;
+    background-color: #bbbcc4;
+    border: 3px dashed skyblue;
+    margin: 10px 3px;
+
+}
+.ul-2 .li-2 {
+    float: left;
+    width: 133px;
+    height: 178px;
+    background-color: #bbbcc4;
+    border: 3px dashed skyblue;
+    margin-left:  126px;
+}
+
+.ul-2 li {
+    float: left;
+    width: 133px;
+    height: 178px;
+    background-color: #bbbcc4;
+    border: 3px dashed skyblue;
+    margin: 10px 5px;
+}
+.footer {
+    float: left;
+    width:790px ;
+    height:100px ;
+    background-color: #bbbcc4;
+    margin: 5px 10px;
+    border: 3px dashed skyblue;
+}
