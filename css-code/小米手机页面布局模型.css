@@ -1,0 +1,33 @@
+.box {
+    width: 1090px;
+    height: 557px;
+    background: #4c4c4c;
+    margin: 0 auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.left {
+    float: left;
+    height: 557px;
+    width: 218px;
+    margin-right: 5px;
+    background-color: skyblue;
+
+}
+
+.box ul li {
+    float: left;
+    width: 206px;
+    height: 271px;
+    background: #8150cb;
+    margin-right: 10px;
+    margin-top:6px ;
+}
