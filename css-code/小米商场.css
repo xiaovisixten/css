@@ -1,0 +1,119 @@
+.nav-bar {
+    height: 35px;
+    background-color: #333333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar .nav-ul li a:hover {
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+.nav-ul li {
+    float: left;
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-ul li a {
+    display: inline-block;
+    color: #b0b0b0;
+    height: 35px;
+    line-height: 35px;
+}
+
+.nav-ul li em {
+    display: inline-block;
+    color: #b0b0b0;
+    font-style: normal;
+    margin-left: 2px;
+}
+
+.first-li {
+    margin-left: 336px;
+}
+
+.nav-bar .nav-ul .login-li {
+    margin-left: 158px;
+}
+
+/*小米导航栏完成*/
+
+.title-url li a:hover{
+   color: orangered;
+}
+.ipt:focus {
+    background-color: orangered;
+}
+
+.title {
+    width: 1230px;
+    height: 778px;
+    background-color: white;
+    margin: 0 auto ;
+}
+.xiaomi-logo {
+    float: left;
+    width: 58px;
+    height: 54px;
+    border-radius: 50%;
+    /*background-color: #8150cb;*/
+    background-image: url("../img/xiaomolo.png");
+    background-repeat: no-repeat;
+    background-position:  center;
+}
+.title-url li{
+    float: left;
+    margin-right: 25px;
+    font-size: 16px;
+
+
+
+
+}
+.title-url li a{
+    float: left;
+    height: 54px;
+    line-height: 54px ;
+    color: #333333;
+}
+
+.title .title-url .first-li-title {
+    margin-left: 165px;
+}
+
+.ipt {
+    float: left;
+    width: 243px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 53px;
+    text-align: center;
+    border: 1px solid #a29e9e;
+}
+.search {
+    float: left;
+    width: 53px;
+    height: 50px;
+    border: 1px solid #a29e9e;
+
+
+}
+.search a {
+    display: inline-block;
+    height: 50px;
+    width: 53px;
+    background-image: url("../img/搜索.png");
+    background-repeat: no-repeat;
+}
