@@ -71,7 +71,7 @@ a {
     /*background-color: #8150cb;*/
     background-image: url("../img/xiaomolo.png");
     background-repeat: no-repeat;
-    background-position:  center;
+    background-position: top center;
 }
 .title-url li{
     float: left;

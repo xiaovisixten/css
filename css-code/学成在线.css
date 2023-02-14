@@ -1,0 +1,435 @@
+/*
+ 除去外边距
+ */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*去除li样式*/
+li {
+    list-style: none;
+}
+
+/*去除a标签下划线*/
+a {
+    text-decoration: none;
+}
+
+/*全局字体*/
+body {
+    font-size: 16px;
+    font-family: "Microsoft YaHei UI", serif;
+}
+
+/*navbar高度*/
+.nav_bar {
+    height: 100px;
+    background-color: #f3f5f7;
+}
+
+/*input失去焦点事件*/
+.ipt-key:focus {
+    outline: none;
+    border-color: #4c4c4c;
+}
+
+/*学成在线logo*/
+.xue-logo {
+    float: left;
+    height: 100px;
+    width: 195px;
+    background-image: url("../img/学成在线.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 360px;
+}
+
+/*给a标签定义高度*/
+.nav_bar .xue-logo a {
+    display: inline-block;
+    height: 100px;
+    width: 195px;
+}
+
+.nav_bar ul li {
+    float: left;
+    line-height: 100px;
+    margin-right: 40px;
+}
+
+.nav_bar
+a {
+    color: black;
+}
+
+.nav-box .nav-box-ul a:hover {
+    color: skyblue;
+}
+
+.nav_bar .xue-logo ul li a {
+    display: inline-block;
+    height: 100px;
+
+}
+
+.nav_bar .li-index {
+    margin-left: 72px;
+}
+
+.ipt-key {
+    float: left;
+    width: 360px;
+    height: 39px;
+    border: 1px solid skyblue;
+    margin-left: 95px;
+    margin-top: 25px;
+}
+
+.search-a {
+    float: left;
+    height: 41px;
+    width: 50px;
+    margin-top: 25px;
+    background-color: #00a4ff;
+    background-image: url("../img/fa-search.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 25px;
+}
+
+.user-img {
+    float: left;
+    height: 41px;
+    width: 50px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 25px;
+    background-image: url("../img/user.png");
+
+}
+
+.user-name {
+    float: left;
+    margin-top: 35px;
+}
+
+.context-title {
+    height: 420px;
+    background-color: #033db2;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../img/banner2.png");
+}
+
+.context-title .title-box {
+
+    height: 420px;
+    width: 190px;
+    background-color: #13024b;
+    margin-left: 360px;
+}
+
+.context-title .title-box .context-ul li {
+    text-align: center;
+    line-height: 47px;
+    font-size: 12px;
+}
+
+.context-title .title-box .context-ul li a {
+    display: inline-block;
+    color: white;
+}
+
+.context-title .title-box .context-ul li span {
+    color: white;
+}
+
+.jie-shao {
+    width: 1200px;
+    height: 56px;
+    margin: 5px auto 10px;
+    background-color: #ffffff;
+    line-height: 56px;
+
+}
+
+.jie-shao a {
+    padding-right: 20px;
+    padding-left: 20px;
+    color: black;
+    font-size: 12px;
+}
+
+/*.jie-shao span {*/
+/*    padding-right:20px;*/
+/*}*/
+/*.jie-shao .jie-shao-first-a {*/
+/*    margin-left: 20px;*/
+/*}*/
+.jie-shao .jie-shao-last-a {
+    padding-right: 0;
+}
+
+.jie-shao .like {
+    padding-left: 259px;
+    color: #00a4ff;
+}
+
+.boutique-recommendation {
+    height: 42px;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #f3f5f7;
+    line-height: 42px;
+}
+
+.select-recommendation {
+    float: left;
+    font-size: 14px;
+    font-weight: 500;
+    color: #494949;
+
+}
+
+.text-boutique-recommendation {
+    float: right;
+    font-size: 12px;
+    color: #d6d7d9;
+    padding-right: 30px;
+}
+
+.context-recommendation {
+    width: 1200px;
+    height: 555px;
+    background-color: #f3f5f7;
+    margin: 10px auto;
+
+}
+
+.context-recommendation div {
+    float: left;
+    width: 230px;
+    height: 271px;
+    margin-right: 12px;
+    margin-top: 5px;
+    margin-bottom: 1px;
+
+    background-color: white;
+}
+
+.context-recommendation .clear-in {
+    margin-right: 0;
+}
+
+.context-recommendation div img {
+    width: 230px;
+    height: 140px;
+    background-image: url("../img/图层 133.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+}
+
+.context-recommendation div h4 {
+    float: left;
+    color: black;
+    text-indent: 2em;
+    padding: 0 20px;
+    margin-bottom: 10px;
+
+}
+
+.context-recommendation div a {
+    display: inline-block;
+    width: 230px;
+    height: 11px;
+    background-image: url("../img/高级  •  1125人在学习.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 30px;
+}
+
+.nav-box {
+    height: 60px;
+    width: 1200px;
+    background-color: #f3f5f7;
+    margin: 0 auto;
+}
+
+.nav-box .nav-box-ul li {
+    float: left;
+    line-height: 60px;
+    margin-right: 35px;
+
+}
+
+.nav-box .nav-box-ul .nav-box-ul-first-li {
+    margin-right: 350px;
+}
+
+.nav-box .nav-box-ul .nav-box-ul-last-li {
+    float: right;
+    margin-right: 10px;
+}
+
+.nav-box .nav-box-ul a {
+    color: #868686;
+}
+
+.code-recommendation {
+    width: 1200px;
+    height: 395px;
+    margin: 10px auto;
+}
+
+.code-recommendation div {
+    width: 230px;
+    height: 271px;
+    float: left;
+}
+
+.code-recommendation .left_nav {
+    width: 230px;
+    height: 395px;
+    background-image: url("../img/php.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.code-recommendation .center_img {
+    width: 961px;
+    height: 100px;
+    margin-left: 8px;
+    background-image: url("../img/python.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.code-recommendation div img {
+    width: 230px;
+    height: 140px;
+    background-image: url("../img/uguis.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin: 30px 5px 10px 15px;
+}
+
+.code-recommendation div h4 {
+    float: left;
+
+    text-indent: 2em;
+    padding: 0 20px;
+    margin-bottom: 10px;
+
+}
+
+.code-recommendation div a {
+    display: inline-block;
+    width: 230px;
+    height: 11px;
+    background-image: url("../img/高级  •  1125人在学习.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 30px;
+}
+
+.bgc-img {
+    background-image: url("../img/leftphp.png") !important;
+}
+
+.bgc-center-img {
+    background-image: url("../img/centerimg.png") !important;
+}
+
+.footer {
+    width: 1200px;
+    height: 271px;
+    background-color: white;
+    margin: 10px auto;
+}
+
+
+.footer div {
+    width: 230px;
+    height: 271px;
+    float: left;
+    margin-left: 10px;
+}
+
+
+.footer div img {
+    width: 230px;
+    height: 140px;
+    background-image: url("../img/kami2.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+
+}
+
+.footer div h4 {
+    float: left;
+    text-indent: 2em;
+    padding: 0 20px;
+    margin-bottom: 10px;
+
+}
+
+.footer div a {
+    display: inline-block;
+    width: 230px;
+    height: 11px;
+    background-image: url("../img/高级  •  1125人在学习.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 30px;
+}
+
+.footer .footer-first-div{
+    width: 230px;
+    height: 140px;
+    margin-left: 0!important;
+}
+
+
+.end {
+    height: 268px;
+    background-color: white;
+    color: #333333;
+    font-size: 14px;
+    font-family: 楷体, serif;
+}
+.end .end-logo {
+    display: inline-block;
+    margin-left: 300px;
+}
+.end .end-logo dt a{
+    display: inline-block;
+    height: 50px;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-image: url("../img/学成在线.png");
+    background-position: center;
+
+}
+.end-logo .first-dd {
+    display: inline-block;
+    height: 50px;
+    width: 600px;
+}
+button {
+    width: 118px;
+    height: 36px;
+    display: inline-block;
+    border: 1px solid skyblue;
+    color: skyblue;
+}
+.end dt {
+    margin-top: 40px;
+}
+.gun-yu{
+    display: inline-block;
+    margin-left: 100px;
+}
